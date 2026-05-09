@@ -81,6 +81,7 @@ export default function BookmarksList({
               <p className="flex gap-1 items-center font-medium text-gray-900 dark:text-white">
                 <Link
                   href={`/dictionary/${encodeURIComponent(translation.word.word)}`}
+                  prefetch={false}
                 >
                   {translation.word.word}
                 </Link>

@@ -96,6 +96,7 @@ export default async function BookmarksPage() {
                 >
                   <Link
                     href={`/collection/${id}`}
+                    prefetch={false}
                     className="w-full p-4 flex flex-col gap-3"
                   >
                     <h3 className="text-lg font-bold truncate">{name}</h3>

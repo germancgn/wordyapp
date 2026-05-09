@@ -258,6 +258,7 @@ export default async function WordPage({
                             <li key={id}>
                               <Link
                                 href={`/dictionary/${encodeURIComponent(text)}`}
+                                prefetch={false}
                                 className="bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 transition rounded-md px-3 py-1 text-sm"
                               >
                                 {text}
@@ -278,6 +279,7 @@ export default async function WordPage({
                             <li key={id}>
                               <Link
                                 href={`/dictionary/${encodeURIComponent(text)}`}
+                                prefetch={false}
                                 className="bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 transition rounded-md px-3 py-1 text-sm"
                               >
                                 {text}

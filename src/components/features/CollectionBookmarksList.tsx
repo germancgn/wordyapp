@@ -84,6 +84,7 @@ export default function CollectionBookmarksList({
               <p className="flex gap-1 items-center font-medium text-gray-900 dark:text-white">
                 <Link
                   href={`/dictionary/${encodeURIComponent(bookmark.translation.word.word)}`}
+                  prefetch={false}
                 >
                   {bookmark.translation.word.word}
                 </Link>

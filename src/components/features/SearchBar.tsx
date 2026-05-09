@@ -135,6 +135,7 @@ export default function SearchBar() {
             <Link
               role="option"
               aria-selected={false}
+              prefetch={false}
               href={`/dictionary/${encodeURIComponent(word)}`}
               className="flex items-center justify-between p-4 hover:bg-gray-100 dark:hover:bg-gray-700 transition gap-4"
             >
